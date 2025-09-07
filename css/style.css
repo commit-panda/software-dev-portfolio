@@ -8,6 +8,8 @@ body {
   font-family: Arial, sans-serif;
   height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background-attachment: fixed;
+  
 }
 
 .banner {
@@ -106,6 +108,7 @@ button {
   top: 50%;
   margin: 0 auto;
   max-width: 1200px;
+  align-items: center;
 }
 
 #about .quote {
