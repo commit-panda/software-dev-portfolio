@@ -1,2 +1,6 @@
-# software-dev-portfolio
-This is my portfolio made out of HTML, CSS and JS
+# This is my software development portfolio
+
+
+Languages:
+
+HTML, CSS and JS
