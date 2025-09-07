@@ -125,5 +125,21 @@ button {
 }
 
 #projects {
-  display: flex;
+    /* padding: 2rem 1.5rem; */
+    padding: 2rem 0;
+  margin: 0 1.5rem;
+  /* display: flex;
+  width: 100%;
+  position: absolute;
+  padding: 2rem 0;
+  margin: 0 1.5rem;
+
+  text-align: center;
+  color: #fff; */
+}
+
+#projects .project-title {
+    color: #fff;
+    text-align: left;
+
 }
