@@ -1,10 +1,8 @@
 # My Software Development Portfolio
 
-This is a portfolio created using HTML, CSS and Javascript.
-
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a portfolio created using HTML, CSS and Javascript.
 
 ## Getting Started
 
