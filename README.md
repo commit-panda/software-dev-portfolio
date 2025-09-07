@@ -32,8 +32,7 @@ Sandra Manyarkiy(Commit-Panda)
 
 ## Version History
 
-* 0.1
-    * Initial Release
+* 0.1 - Initial Release
 
 ## License
 

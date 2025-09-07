@@ -129,14 +129,26 @@ button {
   padding: 0 50px;
 }
 
-#projects {
+#project {
   padding: 2rem 0;
   height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-#projects .project-title {
+#project .project-title {
   color: #fff;
   text-align: left; 
+}
+
+#contact {
+  padding: 2rem 0;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#contact
+{
+    display: flex;
 }
