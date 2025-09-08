@@ -1,28 +1,25 @@
+/* Whole page */
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-
-  
 }
 
+/* Body */
 body {
   font-family: Arial, sans-serif;
   height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
   background-attachment: fixed;
-  
 }
 
+/* Banner */
 .banner {
   width: 100%;
   height: 100vh;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(https://plus.unsplash.com/premium_photo-1744987229692-ad86e842ebb4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
-  /* background-size: cover;
-  background-position: center; */
 }
 
+/* Navigation Bar */
 .navbar {
   width: 85%;
   margin: auto;
@@ -53,6 +50,23 @@ body {
   text-transform: uppercase;
 }
 
+/* Adding hover effect on navbar */
+.navbar ul li::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: lightpink;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+/* Home */
 .content {
   width: 100%;
   position: absolute;
@@ -73,44 +87,20 @@ body {
   line-height: 25px;
 }
 
-.content p, h1 {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeSlideIn 1s ease-out forwards;
-
+.content p,
+h1 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1s ease-out forwards;
 }
 
-@keyframes fadeSlideIn{
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* .button-home {
-  width: 200px;
-  padding: 15px 0;
-  text-align: center;
-  margin: 20px 10px;
-  border-radius: 25px;
-  cursor: pointer;
-  font-weight: bold;
-  border: 2px solid pink;
-  background: transparent;
-  color: #fff;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  transition: all 0.3s ease;
-}
-
-.button-home:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    background: lightpink;
-    background: rgba(255,255,255,0.2);
-            box-shadow: 0 0 20px rgba(255,255,255,0.5);
-            transform: scale(1.05);
-} */
 .button-home {
   width: 200px;
   padding: 15px 0;
@@ -131,22 +121,7 @@ body {
 }
 
 
-/* Adding hover effect on navbar */
-.navbar ul li::after {
-  content: "";
-  height: 2px;
-  width: 0;
-  background: lightpink;
-  position: absolute;
-  left: 0;
-  bottom: 1px;
-  transition: 0.5s;
-}
-
-.navbar ul li:hover::after {
-  width: 100%;
-}
-
+/* About Section */
 #about {
   height: 100vh;
   padding: 50px 0;
@@ -176,6 +151,7 @@ body {
   padding: 0 50px;
 }
 
+/* Projects Section */
 #project {
   padding: 2rem 0;
   height: 100vh;
@@ -185,19 +161,44 @@ body {
 
 #project .project-title {
   color: #fff;
-  text-align: left; 
+  text-align: left;
 }
 
+/* Contact Me Section */
 #contact {
-    padding: 2rem 0;
+  padding: 2rem 0;
   height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-#project .contact-heading {
+#contact .contact-heading {
   color: #fff;
-  text-align: left; 
+  text-align: left;
 }
 
+#contact h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
 
+#contact p {
+  margin: 20px auto;
+  font-weight: 100px;
+  line-height: 25px;
+  color: #fff;
+}
+
+#contact p, h1 {
+    
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1s ease-out forwards;
+}
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
