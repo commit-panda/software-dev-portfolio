@@ -207,3 +207,11 @@ h1 {
     transform: translateY(0);
   }
 }
+
+/* Contact section */
+
+.email-button {
+    text-decoration: underline;
+    color: #fff;
+    
+}
