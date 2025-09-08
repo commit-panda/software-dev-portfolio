@@ -121,10 +121,9 @@ h1 {
 }
 
 .button-home a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
-
 
 /* About Section */
 #about {
@@ -195,8 +194,8 @@ h1 {
   color: #fff;
 }
 
-#contact p, h1 {
-
+#contact p,
+h1 {
   opacity: 0;
   transform: translateY(20px);
   animation: fadeSlideIn 1s ease-out forwards;
@@ -210,7 +209,14 @@ h1 {
 }
 
 .email-button {
-    text-decoration: underline;
-    color: #fff;
+  text-decoration: underline;
+  color: #fff;
+}
 
+/* Footer */
+.footer {
+  padding: 2rem 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #fff;
 }
