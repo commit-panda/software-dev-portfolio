@@ -175,6 +175,7 @@ h1 {
   height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
+  align-items: center;
 }
 
 #contact .contact-heading {
@@ -208,10 +209,8 @@ h1 {
   }
 }
 
-/* Contact section */
-
 .email-button {
     text-decoration: underline;
     color: #fff;
-    
+
 }
